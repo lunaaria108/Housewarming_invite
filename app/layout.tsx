@@ -2,6 +2,14 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+import { Pixelify_Sans } from "next/font/google";
+
+const pixelify = Pixelify_Sans({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-pixelify",
+});
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
