@@ -10,7 +10,7 @@ const pixelify = Pixelify_Sans({
 
 export default function No() {
      return(
-            <div>
+            <div className="relative min-h-[100dvh] overflow-hidden">
                 <Image src="/images/bg.jpg" alt="cat" fill quality={100} unoptimized className="object-cover -z-10"></Image>
                 <main className={`${pixelify.className} min-h-screen flex flex-col items-center justify-center relative`}>
                     <div className="text-center sm:text-xl md:text-3xl lg:text-3xl xl:text-3xl w-[85%] sm:w-[80%] md:w-[70%] lg:w-[60%] xl:w-[50%] max-w-xl mx-auto bg-[#657341] p-6 rounded-xl shadow-lg max-w-xl">
