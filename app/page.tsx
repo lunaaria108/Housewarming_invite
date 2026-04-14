@@ -24,7 +24,7 @@ export default function Home() {
         <Typewriter
           onInit={(typewriter) => {
             typewriter
-              .changeDelay(60)
+              .changeDelay(40)
               .typeString("You're invited to...")
               .pauseFor(700)
 
